@@ -1,4 +1,4 @@
-name: Commit Linter
+name: Commit Linter (fork with default config)
 description: Lints Pull Request commit messages with commitlint
 author: Wagner Santos
 inputs:
