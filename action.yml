@@ -10,11 +10,11 @@ inputs:
     description: >
       When set to true, we follow only the first parent commit when seeing a merge commit. More info
       in git-log docs https://git-scm.com/docs/git-log#Documentation/git-log.txt---first-parent
-    default: "true"
+    default: 'true'
     required: false
   failOnWarnings:
     description: Whether you want to fail on warnings or not
-    default: "false"
+    default: 'false'
     required: false
   helpURL:
     description: Link to a page explaining your commit message convention
@@ -32,7 +32,7 @@ outputs:
     description: The error and warning messages for each one of the analyzed commits
 runs:
   using: docker
-  image: docker://wagoid/commitlint-github-action:2.0.2
+  image: 'Dockerfile'
 branding:
   icon: check-square
   color: blue
